@@ -1,0 +1,117 @@
+/* Estilos generales */
+*{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    background: url(FINAL.png) no-repeat center fixed;
+    margin: 0;
+    padding: 0;
+  }
+h4{
+    text-decoration:underline
+  }
+.empresa{
+  font-size: 15px;
+}
+
+.header {
+    margin-top: 20px;
+    text-align: center;
+    background-color: none;
+    padding: 20px;
+    image-orientation: flip;
+  }
+
+h1{
+    color: palevioletred;
+    float:none
+}
+#perfil-des{
+  margin: 15px;
+  text-align: justify;
+}
+img{
+  border-style: outset;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+  nav ul {
+    list-style-type:disc;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav li {
+    color: rgb(167, 43, 74);
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  nav a {
+    font-weight: bold;
+    text-decoration: none;
+    color:palevioletred;
+    margin-left: 15px;
+  }
+  
+
+  hr {
+    border: 0;
+    height: 1px;
+    background-color:palevioletred;
+    margin: 20px 0;
+    opacity: 0.3;
+  }
+  
+  div {
+    padding: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: peachpuff;
+    padding: 10px;
+  }
+  /* Estilos específicos */
+  #perfil h2,
+  #experiencia h2,
+  #educacion h2,
+  #habilidades h2,
+  #formulario h2 {
+    color: palevioletred;
+  }
+  
+  ul ul {
+    list-style-type: circle;
+  }
+  
+  ul ul li {
+    margin-top: 10px;
+  }
+  
+.lic {
+  font-size: larger;
+    padding: 10px;
+    color: palevioletred;
+    font-style: oblique;
+  }
+
+.opciones{
+background-color: rgb(224, 208, 193);
+border: solid 1px palevioletred; 
+padding: 25px;
+}
+.opciones a:hover{
+  background-color: plum;
+  color: white;
+  padding: 20px;
+}
+
+textarea{
+  width: 250px;
+  height: 100px;
+}
