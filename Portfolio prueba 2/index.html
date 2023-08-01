@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  <div class="header">
+    <h1>Catherine Soria</h1>
+    <img src="Perfil2.png" alt="perfil">
+    <p class="lic"><strong>Licenciada en Psicología <br><br> Estudiante de Desarrollo Web</strong></p>
+  </div>
+<div>
+  <nav class="opciones">
+    <ul>
+      <li><a href="#perfil">Perfil</a></li>
+      <li><a href="#experiencia">Experiencia</a></li>
+      <li><a href="#educacion">Educación</a></li>
+      <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#formulario">Contacto</a></li>
+    </ul>
+  </nav>
+</div>
+<hr>
+<div id="perfil">
+    <h2>Perfil</h2>
+    <p id="perfil-des">¡Hola! Soy Psicóloga egresada de la Universidad de la república en 2021 y tengo una especialización en Sexología Clínica. Cuento con experiencia como educadora y psicóloga en INAU desde 2019, en trato directo con población vulnerable, infancia y adolescencia.
+    <br>Además me encuentro cursando Desarrollo Web en Jóvenes a Programar de Ceibal desde 2023.</p>
+</div>
+<hr>
+  <div id="experiencia">
+    <h2>Experiencia</h2>
+    <ul>
+      <li>
+        <h4>Psicóloga</h4>
+        <p class="empresa"><strong>INAU</strong> - 2019 a la actualidad</p>
+        <ul>
+          <li>Operadora</li>
+          <li>Educadora</li>
+          <li>Valoración de riesgo</li>
+        </ul>
+      </li>
+      <li>
+        <h4>Operadora de atención al cliente</h4>
+        <p class="empresa"><strong>Mercado Libre</strong> - 2018 a 2019</p>
+        <ul>
+          <li>Redes sociales</li>
+          <li>Atención telefónica</li>
+          <li>Reporte de errores</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <hr>
+  <div id="educacion">
+    <h2>Educación</h2>
+    <ul>
+      <li>
+        <h3>Licenciada en Psicología</h3>
+        <p>UDELAR - 2015 a fecha de fin 2020</p>
+      </li>
+      <li>
+        <h3>Sexologa Clínica</h3>
+        <p>SESEEX - 2020 a fecha de fin 2022</p>
+      </li>
+      <li>
+        <h3>Jovenes a Programar - Desarrollo Web</h3>
+        <p>Plan Caibal - 2023 a la actualidad </p>
+      </li>
+    </ul>
+  </div>
+  <hr>
+  <div id="habilidades">
+    <h2>Habilidades</h2>
+    <ul>
+      <li>Comunicacion asertiva</li>
+      <li>Liderazgo</li>
+      <li>Compromiso</li>
+    </ul>
+  </div>
+  <br>
+  <hr>
+  <div id="formulario">
+    <h2>Formulario de contacto</h2>
+    <form>
+    <label for="inombre">Nombre:</label>
+    <input type="text" name="firstname" id="iname"><br>
+    <br>
+    <label for="ilastname">Apellido:</label>
+    <input id="ilastname" type="text" name="lastname" autocomplete="name"><br>
+    <br>
+    <label for="iemail">Email:</label>
+    <input id="iemail" type="email" name="email"><br>
+    <br>
+    <label for="date">Disponibilidad:</label>
+    <input id="date" type="datetime-local" name="date time">
+    <br><br>
+    <label>Motivo</label> <br>
+    <br>
+    <input type="radio" name="motivo" id="iPropuesta laboral" value="Propuesta laboral" checked>
+    <label for="iPropuesta laboral">Propuesta laboral</label>
+    <input type="radio" name="motivo" id="iConsulta" value="Consulta">
+    <label for="iConsulta">Consulta</label>
+    <input type="radio" name="motivo" id="iSugerencia" value="Sugerencia">
+    <label for="iSugerencia">Sugerencia</label>
+    <input type="radio" name="motivo" id="iOtro" value="Otro">
+    <label for="iOtro">Otro</label>
+    <br>
+    <br>
+    <label for="iDescripcion">Descripcion:</label><br><br>
+    <textarea id="iDescripcion" name="Descripcion"></textarea><br>
+    <br>
+    <label for="iselector">Como llegaste hasta aqui?</label>
+    <select id="iselector" name="busqueda">
+    <option>Instagram</option>
+    <option>Linkedin</option>
+    <option>Busqueda de Google</option>
+    <option>Sugerencia</option>
+    <option>Otro</option>
+    </select><br>
+    <br>
+    <button class="enviar" type="submit" onclick="alert ('Gracias por comunicarte');">Enviar</button>
+    <input class="enviar" type="reset" name="reset">
+    </form>
+  </div>
+  <div>
+    <footer>
+    <p>catherinesoria231@gmail.com</p>
+    </footer>
+  </div>
+</body>
+</html>
